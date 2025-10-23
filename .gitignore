@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual envs / conda envs
+env/
+venv/
+.venv/
+.anaconda/
+anaconda3/
+envs/
+*.conda
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Data / outputs (do NOT push large raw data)
+data/
+outputs/
+
+# IDE settings
+.vscode/
+*.suo
+*.user
+*.pyproj
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+.env
